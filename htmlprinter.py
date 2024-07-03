@@ -56,8 +56,8 @@ class HtmlPrinter:
         <thead>
             <th>Fuente</th>
             <th>Enlace</th>
-            <th>Clasifición Fuente</th>
-            <th>Clasifición Datos</th>
+            <th>Clasificación Fuente</th>
+            <th>Clasificación Datos</th>
             <th>Resultado</th>
         </thead>
         <tbody>
