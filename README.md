@@ -4,6 +4,10 @@ Calculadora de fuentes para realizar presentaciones con fuentes de información.
 
 Basada en la calculador realizada por el equipo <completar>
 
+El resultado es un archivo html que se ve así:
+
+![resultado](imagen_resultados.png)
+
 # Uso
 Crear una copia del archivo **source_manifest-example.csv**
 y renombrarlo como: **source_manifest.csv**
