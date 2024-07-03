@@ -21,3 +21,17 @@ Se le puede pasar otro nombre de archivo de entrada o path y un nombre diferente
 ```bash
 python3 main.py -f <nombre_del_archivo_entrada> -o <nombre_del_archivo_salida>
 ```
+
+# Ejemplo del formato del archivo de entrada (csv)
+
+Son 4 campos separadas por ,
+- título
+- link
+- puntaje 1
+- puntaje 2
+
+```csv
+mi ejemplo, http://google.com/resultado1, 2, 1
+mi ejemplo2, http://google.com/resultado2, 3, 1
+mi ejemplo3, http://google.com/resultado3, 7, 1
+```
