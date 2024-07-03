@@ -50,14 +50,14 @@ class HtmlPrinter:
     <title>Calculadora de fuentes para informe</title>
 </head>
 <body>
-    <h1>Calculadora de fuentes</h1>
+    <h1>Calculadora de recursos</h1>
     <div class="container">    
     <table>
         <thead>
             <th>Fuente</th>
             <th>Enlace</th>
-            <th>Puntaje 1</th>
-            <th>Puntaje 2</th>
+            <th>Clasifición Fuente</th>
+            <th>Clasifición Datos</th>
             <th>Resultado</th>
         </thead>
         <tbody>
