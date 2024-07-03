@@ -1,11 +1,23 @@
 # Source calc
 
-Calculadora de fuentes nivel de fuentes
+Calculadora de fuentes para realizar presentaciones con fuentes de información.
 
-Una calculadora de que sirve para generar un archivo html que muestra el puntaje de las fuentes en base a la calculaculador de la cátedra.
+Basada en la calculador realizada por el equipo <completar>
 
-Esto funciona así: en un archivo .csv se pone el nombre de la fuente, url, puntaje 1, puntaje 2 y esto lo que hace es sumar el puntaje 1 y el 2 y arroja un resultado. source_manifest.csv
+# Uso
+Crear una copia del archivo **source_manifest-example.csv**
+y renombrarlo como: **source_manifest.csv**
 
-* en el futuro se podría hacer una formulario previo para guardarse luego.
+y luego ejecutar el script así:
 
-El resultado se muestra en en un archivo html que muestra la lista de las fuentes. Haciendo que esto sea sencillo de hacer y que tenga un buen resultado visual para compartir.
+```bash
+python3 main.py
+```
+
+Esto parseará y el archivo source_manifest.csv y generará un archivo html para ver las fuentes. Este archivo se puede imprimir y modificar de ser necesario.
+
+Se le puede pasar otro nombre de archivo de entrada o path y un nombre diferente para el archivo de salida.
+
+```bash
+python3 main.py -f <nombre_del_archivo_entrada> -o <nombre_del_archivo_salida>
+```
