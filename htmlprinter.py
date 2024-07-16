@@ -30,13 +30,21 @@ class HtmlPrinter:
     def generate_table(self):
         html_code=f""""""
         for row in self.sources:
+            
+            result_style=0;
+            if(row.result<5):
+                result_style=1
+            elif(row.result==5):
+                result_style=5;
+            else:
+                result_style=10
             html_code+=f"""
             <tr>
                 <td>{row.title}</td>
                 <td><a href="{row.link}">Enlace</a></td>
                 <td>{row.points_1}</td>
                 <td>{row.points_2}</td>
-                <td class="points_{row.result}">{row.result}</td>
+                <td class="points_{result_style}">{row.result}</td>
             </tr>"""
         return html_code
     
@@ -124,33 +132,33 @@ tbody tr:nth-child(even) {
     background-color: #FF7F7F; /* Rojo claro */
 }
 
-.points_2 {
-    background-color: #FF9999; /* Rojo */
-}
+# .points_2 {
+#     background-color: #FF9999; /* Rojo */
+# }
 
-.points_3 {
-    background-color: #FFB3B3; /* Rojo claro */
-}
+# .points_3 {
+#     background-color: #FFB3B3; /* Rojo claro */
+# }
 
-.points_4 {
-    background-color: #FFCCCC; /* Rojo */
-}
+# .points_4 {
+#     background-color: #FFCCCC; /* Rojo */
+# }
 
 .points_5 {
     background-color: #FFFFCC; /* Amarillo claro */
 }
 
-.points_6 {
-    background-color: #DFFFDF; /* Verde claro */
-}
+# .points_6 {
+#     background-color: #DFFFDF; /* Verde claro */
+# }
 
-.points_7 {
-    background-color: #B3FFB3; /* Verde */
-}
+# .points_7 {
+#     background-color: #B3FFB3; /* Verde */
+# }
 
-.points_8 {
-    background-color: #99FF99; /* Verde claro */
-}
+# .points_8 {
+#     background-color: #99FF99; /* Verde claro */
+# }
 
 .points_9 {
     background-color: #7FFF7F; /* Verde */

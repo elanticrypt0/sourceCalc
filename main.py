@@ -5,7 +5,7 @@ import argparse
 def app_banner():
     banner="""
     #########################################
-        CALCULADORA DE  FUENTES
+        CALCULADORA DE FUENTES
                         2024  elanticrypt0
     ####################################
     """
